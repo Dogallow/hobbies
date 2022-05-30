@@ -1,0 +1,62 @@
+/* Boiler Plate */
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #E8FFBF;
+}
+
+header div{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 195, 195);
+    padding: 20px;
+
+}
+
+header li{
+    background-color: rgb(255, 223, 167);
+    list-style-type: none;
+    padding: 5px;
+}
+
+header a {
+
+
+    color: #404231;
+}
+
+h1, h2{
+    font-family: "Lato";
+}
+
+p{
+    font-family: "Tiro Bangla"
+}
+
+/* ==================================================================================================================================== */
+
+.div-main-text{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+}
+
+main img{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin: 100px auto;
+}
